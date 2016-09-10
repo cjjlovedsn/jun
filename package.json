@@ -1,0 +1,24 @@
+{
+  "name": "jun",
+  "version": "0.0.1",
+  "description": "MarkDown parse to HTML",
+  "main": "bin/jun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MarkDown",
+    "HTML",
+	"WatchFile"
+  ],
+  "bin":{
+	"jun":"./bin/jun.js"
+  },
+  "author": "Junjun_Chen",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.15.0",
+    "marked": "^0.3.6",
+	"opener": "^1.4.1"
+  }
+}
